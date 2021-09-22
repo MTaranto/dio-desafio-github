@@ -117,9 +117,12 @@ A marcação é usada para marcar compromissos específicos com alças simples. 
 
 Executar o comando `git log` exibe o registro de *log* do *commit*, juntamente com os detalhes pertinentes. Um exemplo de saída pode ser:
 
-> commit 15f4b6c44b3c8344caasdac9e4be13246e21sadw
-> Author: Alex Hunter <alexh@gmail.com>
-> Date:   Mon Oct 1 12:56:29 2016 -0600
+> `commit 15f4b6c44b3c8344caasdac9e4be13246e21sadw`
+> 
+> `Author: nome_author <nome_author@email.com>`
+> 
+> `Date:   Mon Oct 1 12:56:29 2016 -0600`
+
 
 Para exibir o *log* de maneira resumida, use:
 

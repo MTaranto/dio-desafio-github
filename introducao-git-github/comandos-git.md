@@ -132,6 +132,7 @@ O comando `git reset` é usado para redefinir o índice e o diretório de trabal
 > `git reset --hard HEAD`
 
 - **git rm**
+
 O comando `git rm` pode ser usado para remover arquivos do índice e do diretório de trabalho. Uso:
 
 > `git rm filename.txt`
@@ -150,13 +151,13 @@ Para visualizar informações sobre qualquer objeto git, use o comando git show.
 
 - **git fetch**
 
-O comando **git fetch** permite que um usuário obtenha todos os objetos do repositório remoto que atualmente não residem no diretório de trabalho local. Exemplo de uso:
+O comando `git fetch` permite que um usuário obtenha todos os objetos do repositório remoto que atualmente não residem no diretório de trabalho local. Exemplo de uso:
 
 > `git fetch origin`
 
 - **git ls-tree**
 
-Para exibir um objeto `tree` juntamente com o nome e o modo de cada item e o valor SHA-1 do blob, use o comando `git ls-tree`. Por exemplo:
+Para exibir um objeto *tree* juntamente com o nome e o modo de cada item e o valor SHA-1 do blob, use o comando `git ls-tree`. Por exemplo:
 
 > `git ls-tree HEAD`
 
@@ -168,7 +169,7 @@ Usando o valor SHA-1, exiba o tipo de um objeto usando o comando `git cat-file`.
 
 - **git grep**
 
-O comando `git grep` permite que um usuário procure, através das *trees*, frases e/ou palavras. Por exemplo, para pesquisar *www.hostinger.com* em todos os arquivos, use:
+O comando `git grep` permite que um usuário procure, através das *trees*, frases e/ou palavras. Por exemplo, para pesquisar *"www.hostinger.com"* em todos os arquivos, use:
 
 > `git grep "www.hostinger.com"`
 
@@ -203,6 +204,7 @@ Através do comando `git prune`, os objetos não acessíveis são excluídos. Us
 > `git prune`
 
 - **git fsck**
+
 Para executar uma verificação de integridade do sistema de arquivos git, use o comando `git fsck`. Todos os objetos corrompidos são identificados:
 
 > `git fsck`

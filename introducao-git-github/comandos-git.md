@@ -169,7 +169,7 @@ Usando o valor SHA-1, exiba o tipo de um objeto usando o comando `git cat-file`.
 
 - **git grep**
 
-O comando `git grep` permite que um usuário procure, através das *trees*, frases e/ou palavras. Por exemplo, para pesquisar *"www.hostinger.com"* em todos os arquivos, use:
+O comando `git grep` permite que um usuário procure, através das *trees*, frases e/ou palavras. Por exemplo, para pesquisar `*www.hostinger.com*`em todos os arquivos, use:
 
 > `git grep "www.hostinger.com"`
 
@@ -223,5 +223,5 @@ ou
 
 Alguns dos comandos git básicos são usados com mais frequência. Outros exigem um nível mais avançado de usuário para não corrermos o risco de perder nosso código. Em caso de dúvidas, consulte a [documentação GIT](https://git-scm.com/doc) disponível nesse link.
 
-#### Autor: mtaranto
+#### Autor: [mtaranto](https://github.com/MTaranto)
 
